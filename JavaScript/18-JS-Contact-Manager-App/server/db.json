@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "id": "TVobxeKbI",
+      "name": "Glenda Kim",
+      "company": "Friend",
+      "email": "glenda@gmail.com",
+      "title": "freelancer",
+      "mobile": "8880009991",
+      "imageUrl": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
+      "groupId": "2"
+    },
+    {
+      "name": "Vladeen Min",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+      "mobile": "900079900",
+      "email": "vladeen@gmail.com",
+      "company": "Service",
+      "title": "Electrician",
+      "groupId": "4",
+      "id": "UyEDV5Yds"
+    },
+    {
+      "name": "Laura",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprjP-BMSaPG1L-_gGNVEVpP9pqXbmkUJk2g&usqp=CAU",
+      "mobile": "9878675478",
+      "email": "laura@gmail.com",
+      "company": "Infosys",
+      "title": "Software Engineer",
+      "groupId": "1",
+      "id": "w4SJp_s"
+    },
+    {
+      "name": "Naveen",
+      "imageUrl": "https://www.freeiconspng.com/uploads/blue-user-icon-32.jpg",
+      "mobile": "9844804533",
+      "email": "naveen.uibrains@gmail.com",
+      "company": "Photon",
+      "title": "Tech Lead",
+      "groupId": "6",
+      "id": "mCL1pbt"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}

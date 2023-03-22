@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Transforms</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background: radial-gradient(white,black);
+            transition: all 1s;
+            margin-bottom: 20px;
+        }
+        #translate:hover{
+            transform: translate(20px,20px);
+        }
+        #scale:hover{
+            transform: scale(1.2,1.2);
+        }
+        #rotate:hover{
+            transform: rotate(35deg);
+        }
+        #rotateX:hover{
+            transform: rotateX(45deg) perspective(200px);
+        }
+        #skew:hover{
+            transform: skewX(-45deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="translate"></div>
+    <div id="scale"></div>
+    <div id="rotate"></div>
+    <div id="rotateX"></div>
+    <div id="skew"></div>
+
+</body>
+</html>

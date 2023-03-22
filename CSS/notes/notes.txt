@@ -1,0 +1,41 @@
+css colors
+----------
+1. RGB -> rgb(red,blue,green);
+   0 - 255
+   
+   white -> rgb(255,255,255);
+   black -> rgb(0,0,255);
+
+2. HEXA : #rrggbb;
+   white -> #FFFFFF
+   black -> #000000
+   
+3. HSL : hsl(hue,saturation,lightness);  
+
+   ex: hsl(56,10%,20%);
+ 
+4. RGBA :  rgba(red,blue,green,alpha);
+5. HSLA : hsla(hue,saturation,lightness,alpha); 
+
+browser plugin -> color picker / eye dropper
+
+-------------------------------------------------------------------
+CSS backgrounds
+------------------------------------------------------------------
+background-color: #aabbcc
+background-image: url("")
+background-repeat: repeat-x, repeat-y
+background-attachment: scroll, fixed
+background-position: left , top, right, bottom ,center
+
+background: color image repeat attachment position;
+background-size:cover, contain
+
+--------------------------------------------------------------
+CSS Borders
+--------------------------------------------------------------
+border: width style color;
+border-left: width style color;
+border-right: width style color;
+
+border-top-left-radius:width;

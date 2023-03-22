@@ -1,0 +1,73 @@
+Contact Manager with JavaScript
+-------------------------------
+-> Server Setup
+----------------
+-> install node js -> node --version -> 18.x
+-> create a folder "server"
+-> create a package.json file -> npm init --yes
+-> "npm install json-server"
+-> place the "db.json" in server folder 
+-> update package.json start script
+   "start" : "json-server --watch db.json --port 9000" 
+
+-> start  the server "npm start"
+
+NOTE : To test the application in your local system, enter the below 2 commands inside "server" folder
+-> npm install 
+-> npm start 
+
+-> Test the Server (using postman / insomnia)
+------------------
+GET -> to get data from server -> READ 
+POST -> to create data at server -> CREATE
+PUT -> to update data at server -> UPDATE
+DELETE -> to delete data at server -> DELETE 
+
+/**
+	@usage : to get all contacts
+    @method : GET 
+    @parms : no-params
+    @url : http://localhost:9000/contacts	
+*/
+
+/**
+	@usage : get a contact
+    @method : GET 
+    @parms : no-params
+    @url : http://localhost:9000/contacts/:contactId	
+*/
+
+/**
+	@usage : create a contact
+    @method : POST 
+    @parms : name, imageUrl, email, mobile, company, title, groupId
+    @url : http://localhost:9000/contacts/	
+*/
+
+/**
+	@usage : Update a contact
+    @method : PUT 
+    @parms : name, imageUrl, email, mobile, company, title, groupId
+    @url : http://localhost:9000/contacts/:contactId	
+*/
+
+/**
+	@usage : Delete a contact
+    @method : DELETE 
+    @parms : no-params
+    @url : http://localhost:9000/contacts/:contactId	
+*/
+
+/**
+	@usage : Get all groups
+    @method : GET 
+    @parms : no-params
+    @url : http://localhost:9000/groups/
+*/
+
+/**
+	@usage : Get a group
+    @method : GET 
+    @parms : no-params
+    @url : http://localhost:9000/groups/:groupId
+*/

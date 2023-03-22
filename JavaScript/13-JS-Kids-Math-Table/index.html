@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Math Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/all.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js" async></script>
+</head>
+<body>
+
+
+<!-- Math Table -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h3>Kids Math Table</h3>
+                </div>
+                <div class="card-body bg-light">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Enter a Number</label>
+                                    <input id="req-number" type="number" class="form-control" placeholder="Your Number">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group mt-4">
+                                    <label for="multiplier">Select the Multiplier</label>
+                                    <input type="range" class="custom-range" id="multiplier" min="1" max="10" value="1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Result Section -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body bg-light">
+                    <div class="row align-items-center">
+                        <div class="col-md-2">
+                            <h1 class="display-2">
+                                <span class="badge bg-primary" id="number">1</span>
+                            </h1>
+                        </div>
+                        <div class="col-md-2">
+                            <h1>
+                                <i class="fa fa-times fa-2x text-secondary"></i>
+                            </h1>
+                        </div>
+                        <div class="col-md-2">
+                            <h1 class="display-2">
+                                <span class="badge bg-primary" id="multi">1</span>
+                            </h1>
+                        </div>
+                        <div class="col-md-2">
+                            <h1>
+                                <i class="fa fa-equals fa-2x text-secondary"></i>
+                            </h1>
+                        </div>
+                        <div class="col-md-2">
+                            <h1 class="display-2">
+                                <span class="badge bg-primary" id="result">1</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

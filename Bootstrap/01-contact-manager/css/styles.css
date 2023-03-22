@@ -1,0 +1,15 @@
+body{
+    background-color:#e7e1d9 !important;
+}
+.display-1{
+    font-size: 100px !important;
+}
+.landing{
+    background: white url("../images/landing.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+}
+.landing .wrapper{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+}

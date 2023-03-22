@@ -1,0 +1,157 @@
+Bootstrap
+---------
+-> Mark Otto -> Twitter -> TBootstrap
+
+-> library of CSS ->
+
+Developer 1 -> website 1 -> hospital
+Developer 2 -> website 2 -> Backery
+
+
+-> navbar , cards , slider, button , progress , alert, forms, modals + data
+
+-> Configure bootstrap
+-----------------------
+-> bootstrap.css
+-> bootstrap.bundle.js
+
+----------------------------------
+colors & Backgrounds
+----------------------------------
+info - light blue
+primary - blue
+secondary - grey
+success - green
+warning - warning
+danger - red
+dark - dark grey
+white - white
+light - light grey 
+
+text colors
+-------------
+text-info - light blue
+text-primary - blue
+text-secondary - grey
+text-success - green
+text-warning - warning
+text-danger - red
+text-dark - dark grey
+text-white - white
+text-light - light grey 
+
+background colors
+-------------
+bg-info - light blue
+bg-primary - blue
+bg-secondary - grey
+bg-success - green
+bg-warning - warning
+bg-danger - red
+bg-dark - dark grey
+bg-white - white
+bg-light - light grey 
+
+buttons colors
+-------------
+btn-info - light blue
+btn-primary - blue
+btn-secondary - grey
+btn-success - green
+btn-warning - warning
+btn-danger - red
+btn-dark - dark grey
+btn-white - white
+btn-light - light grey 
+
+listgroup colors
+-------------
+list-group-item-info - light blue
+list-group-item-primary - blue
+list-group-item-secondary - grey
+list-group-item-success - green
+list-group-item-warning - warning
+list-group-item-danger - red
+list-group-item-dark - dark grey
+list-group-item-white - white
+list-group-item-light - light grey 
+
+Badges
+------
+badge
+
+Alerts
+-------
+alert 
+alert-info - light blue
+alert-primary - blue
+alert-secondary - grey
+alert-success - green
+alert-warning - warning
+alert-danger - red
+alert-dark - dark grey
+alert-white - white
+alert-light - light grey 
+ 
+ 
+ Bootstrap Grid System 
+ ----------------------
+ each row -> 12  cols 
+ 
+ container / container-fluid
+   -> row 
+        -> col-<screen>-<count>
+		ex: col-sm-4 , col-md-3
+		
+		Responsiveness -> website -> all devices
+		sm -> mobile
+		md -> Tablet
+		lg -> Laptop
+		xl -> desktop
+		xxl -> large-desktop 
+		
+		
+Margins & Paddings
+------------------
+0 1 2 3 4 5 auto
+m (magin all)
+ms (margin start)
+me (margin end) 
+mt (margin top)
+mb (margin bottom)		
+mx (margin start + end)
+my (margin top + bottom)		
+		
+m = mx + my 
+mx = ms + me 
+my = mt + mb		
+
+List-Groups
+-------------
+list-group
+list-group-item
+
+Cards
+------
+card
+card-header
+card-body
+card-footer
+card-img
+card-title
+card-text 
+
+forms
+------
+form-control
+form-check-label
+form-check-input 
+
+modal
+------
+modal 
+modal-dialog
+modal-content
+modal-header
+modal-body 
+modal-footer

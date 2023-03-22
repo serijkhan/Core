@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        #register-form{
+            width: 400px;
+            background-color: lightgray;
+            padding: 15px;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+      
+    </style>
+</head>
+<body>
+
+    <div id="register-form">
+        <h2>Registration</h2>
+        <form>
+            <div>
+                <labe for="username">Username : </label>
+                <input id="username" type="text" placeholder="Username">
+            </div>
+            <br>
+            <div>
+                <labe>Password : </label>
+                <input type="password" value="rajan@123" disabled>
+            </div>
+            <br>
+            <div>
+                <labe>Email : </label>
+                <input type="email">
+            </div>
+            <br>
+            <div>
+                <labe>Developer : </label>
+                <input type="radio" name="developer" value="FrontEnd Developer"><label>FE</label>
+                    <input type="radio" name="developer" value="BE"><label>BE</label>
+                    <input type="radio" name="developer" value="FullStack"><label>FullStack</label>
+            </div>
+            <br>
+            <div>
+                <label>Skills</label>
+                <input type="checkbox" value="Java"><label>Java</label>
+                <input type="checkbox" value="UI"><label>UI</label>
+                <input type="checkbox" value="Angular"><label>Angular</label>
+            </div>
+            <br>
+            <div>
+                <lable>DOB : </label>
+                    <input type="date">
+            </div>
+            <br>
+            <div>
+                <label>Designation</label>
+                <select>
+                    <option value="">Select Designation</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Sr.Software Engineer">Sr.Software Engineer</option>
+                    <option value="Tech Lead">Tech Lead</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>About Myself : </label>
+                <textarea rows="4" cols="40"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

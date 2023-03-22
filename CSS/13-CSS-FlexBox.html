@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Flex box</title>
+  <style>
+    .flex-box{
+      width: 800px;
+      height: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px grey;
+      padding: 10px;
+      background-color: lightgrey;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .box-item{
+      background-color: orange;
+      margin: 5px;
+      padding: 20px;
+    }
+    .box-item:nth-child(1){
+      flex: 1;
+    }
+    .box-item:nth-child(2){
+      flex: 3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flex-box">
+    <div class="box-item">Box 1</div>
+    <div class="box-item">Box 2</div>
+  </div>
+
+</body>
+</html>
